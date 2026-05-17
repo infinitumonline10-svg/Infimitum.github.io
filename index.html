@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INFINITUM ONLINE</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      font-family:Arial, Helvetica, sans-serif;
+      overflow:hidden;
+      background:
+      linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+      url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1920&auto=format&fit=crop');
+      background-size:cover;
+      background-position:center;
+    }
+
+    .container{
+      text-align:center;
+      padding:40px;
+    }
+
+    h1{
+      color:#ffd700;
+      font-size:70px;
+      font-weight:900;
+      letter-spacing:4px;
+      text-shadow:
+      0 0 10px #ffd700,
+      0 0 20px #ff0000,
+      0 0 40px #ff0000;
+      margin-bottom:40px;
+    }
+
+    .btn-whatsapp{
+      display:inline-block;
+      background:#25D366;
+      color:white;
+      text-decoration:none;
+      font-size:32px;
+      font-weight:bold;
+      padding:22px 60px;
+      border-radius:20px;
+      box-shadow:
+      0 0 15px #25D366,
+      0 0 30px #25D366;
+      transition:0.3s;
+    }
+
+    .btn-whatsapp:hover{
+      transform:scale(1.08);
+      background:#1ebe5d;
+      box-shadow:
+      0 0 25px #25D366,
+      0 0 50px #25D366;
+    }
+
+    @media(max-width:768px){
+      h1{
+        font-size:42px;
+      }
+
+      .btn-whatsapp{
+        font-size:24px;
+        padding:18px 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>INFINITUM ONLINE</h1>
+
+    <a 
+      class="btn-whatsapp" 
+      href="https://wa.me/5493815542105" 
+      target="_blank"
+    >
+      WHATSAPP
+    </a>
+  </div>
+
+</body>
+</html>
